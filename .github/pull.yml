@@ -1,0 +1,8 @@
+version: "1"
+rules:
+  - base: master
+    upstream: rclone:master
+    mergeMethod: hardreset
+  - base: gh-pages
+    upstream: rclone:gh-pages
+    mergeMethod: hardreset
